@@ -1,0 +1,66 @@
+/* Center Block */
+.npost {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #eee9da98;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: row;
+}
+
+.npost:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Post Image */
+.postimg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-right: 20px;
+    align-self: center; /* Align image in the center */
+}
+
+/* Post Info */
+.postinfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+}
+
+/* Post Title */
+.posttitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Post Date */
+.postdate {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* Post Description */
+.postdesc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-top: 10px; /* Adjust margin top */
+}
