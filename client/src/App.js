@@ -27,7 +27,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/Write" element={user ? <Write/> : <Register />} />
+        <Route path="/Write" element={ <Write/> } />
       </Routes>
       <Routes>
         <Route path="/Register" element={user ? <Home /> : <Register />} />
